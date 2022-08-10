@@ -1,0 +1,78 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://accelerate.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Rafia Farooq
+Author URI:   http://accelerate.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Playball&display=swap');
+
+/* colour scheme 
+SCSS HEX 
+$burnt-umber: #8b312cff;
+$middle-yellow-red: #ebad70ff;
+$light-orange: #f6d0abff;
+$misty-rose: #f7e0ddff; 
+*/
+
+/* homepage */
+
+.home-page {
+    background: url("img/hero-1.jpg") no-repeat scroll center bottom / cover rgba(94, 94, 94, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #8b312cff;
+}
+
+.button{
+    background-color: #f7e0ddff;
+}
+
+a.button{
+    color:#8b312cff;
+}
+
+.blog-post{
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    color: #f6d0abff;
+    font: 700 1em/1.75 'Nuosu SIL', serif;
+    text-transform: uppercase;
+    margin: .5em 0 .5em;
+}
+
+.blog-post h2 {
+    font: 700 2.5em/1.75 'Playball', serif;
+    text-transform: capitalize;
+    margin: 2em 0 .5em;
+}
+
+.blog-post p {
+    text-align: justify;
+}
+
+.blog-post .read-more-link {
+    color: #ebad70ff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.blog-post .read-more-link:hover{
+    text-decoration: underline;
+}
+
+

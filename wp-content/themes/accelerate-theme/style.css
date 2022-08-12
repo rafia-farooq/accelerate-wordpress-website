@@ -658,7 +658,7 @@ a.button, a.button:link {
 	   padding: 0.5em 0;
 	   text-indent: 0;
    }
-   .page-header .primary-navigation ul ul li {
+   .page-header .-navigation ul ul li {
 	   float: none;
 	   text-align: left;
    }

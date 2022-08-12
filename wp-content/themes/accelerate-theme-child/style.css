@@ -64,10 +64,10 @@ a.button{
     text-align: justify;
 }
 
-.read-more-link {
+.read-more-link a{
     color: #ebad70ff;
     font-family: 'Montserrat';
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -106,9 +106,10 @@ a.button{
 .case-study-images {
     width: 50%;
     float: right;
+    margin-top: 5em;
 }
 
 .case-study-images img {
-    width: 100%;
+    margin-bottom: 2em;
 }
 

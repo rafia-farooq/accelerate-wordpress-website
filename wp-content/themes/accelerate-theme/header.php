@@ -28,7 +28,12 @@
 				<span class="title"><?php bloginfo('name'); ?></span>
 			</a>
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'top-nav', 'menu_class' => 'nav-menu' ) ); ?>
+				<?php wp_nav_menu( array( 
+					'theme_location' => 'top-nav', 
+					'menu_class' => 'nav-menu', 
+					'before' => 'screen-reader-text', 
+					'after' => 'screen-reader-text'
+					) ); ?>
 			</nav>
 		</div>
 	</header>

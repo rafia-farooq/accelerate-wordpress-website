@@ -15,7 +15,7 @@ get_header(); ?>
 	<div id="primary" class="site-content sidebar">
 		<div class="main-content" role="main">
 
-            <h2 class="case-studies-archive">Our Work: Case studies</h2>
+            <h2 class="case-studies-archive">Our Work: Case studies </h2>
 
             <?php global $query_string;
             query_posts( $query_string.'&order=ASC' );?>
@@ -27,8 +27,8 @@ get_header(); ?>
                 $size = "full";
             ?>
 
-            <div>
-                <section class="case-studies-text">
+            <div class="case-studies-row">
+                <section class="case-studies-col">
                     <h2> 
                         <a href="<?php the_permalink(); ?>">
                         <?php the_title();?> 
@@ -39,7 +39,7 @@ get_header(); ?>
                     <p class="read-more-link"><a href="<?php echo $site_link; ?>">View Project 🡢</a></p>
                 </section>
 
-                <section class="case-studies-image">
+                <section class="case-studies-col">
                     <a href="<?php the_permalink(); ?>">
                     <?php if($image_1) {
                             echo wp_get_attachment_image( $image_1, $size );

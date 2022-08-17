@@ -36,8 +36,8 @@ add_action( 'init', 'create_custom_post_types' );
 
 // Font Awesome icons for top menu bar without plugin
 
-function wmpudev_enqueue_icon_stylesheet() {
-	wp_register_style( 'fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
-	wp_enqueue_style( 'fontawesome');
+function enqueue_load_fa() {
+wp_enqueue_style( 'load-fa', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
 }
-add_action( 'wp_enqueue_scripts', 'wmpudev_enqueue_icon_stylesheet');
+
+add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );

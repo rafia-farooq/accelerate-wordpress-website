@@ -31,9 +31,13 @@
 				<?php wp_nav_menu( array( 
 					'theme_location' => 'top-nav', 
 					'menu_class' => 'nav-menu', 
-					) ); ?>
+                    'before' => 'screen-reader-text',
+                    'after' => 'screen-reader-text',
+				) ); ?>
 			</nav>
 		</div>
 	</header>
 
 	<div id="main" class="site-main clearfix">
+
+

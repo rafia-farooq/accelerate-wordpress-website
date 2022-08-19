@@ -29,6 +29,26 @@ $misty-rose: #f7e0ddff;
     color: white;
   }
 
+/* icons */
+#menu-top-nav li a {
+    padding: 0.5rem;
+    display: block;
+}
+
+#menu-top-nav li a[href*="blog"]::before {
+    content: '\f1ea';
+    margin-right: 0.5em;
+    color: white;
+    font-size: 18px;
+}
+
+#menu-top-nav li a[href*="case-studies"]::before {
+    content: '\f0b1';
+    color: white;
+    margin-right: 0.5em;
+    font-size: 18px;
+}
+
 /* homepage */
 
 .home-page {

@@ -31,8 +31,9 @@
 				<?php wp_nav_menu( array( 
 					'theme_location' => 'top-nav', 
 					'menu_class' => 'nav-menu', 
-                    'before' => 'screen-reader-text',
-                    'after' => 'screen-reader-text',
+					// to remove text and only leave icons add the following lines.
+                    // 'link_before' => '<span class="screen-reader-text">',
+                    // 'link_after' => '</span>',
 				) ); ?>
 			</nav>
 		</div>

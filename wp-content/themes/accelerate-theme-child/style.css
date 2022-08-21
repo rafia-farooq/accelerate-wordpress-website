@@ -57,10 +57,17 @@ $misty-rose: #f7e0ddff;
     font-size: 18px;
 }
 
+#menu-top-nav li a[href*="about"]::before {
+    content: '\f2bb';
+    color: white;
+    margin-right: 0.5em;
+    font-size: 18px;
+}
+
 /* homepage */
 
 .home-page {
-    background: url("img/hero-1.jpg") no-repeat scroll center bottom / cover rgba(94, 94, 94, 0);
+    background: url("img/hero-1.jpg") no-repeat scroll center bottom / cover rgb(0, 0, 0);
 }
 
 #masthead {
@@ -248,3 +255,53 @@ a.button{
     padding: 0 5em;
     float: right;
 }
+
+
+/* About Page */
+.about {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-intro {
+    text-align: center;
+}
+
+.about-intro p {
+    color: #f6d0abff;
+    font: 700 1em/1.75 'Nuosu SIL', serif;
+    text-transform: uppercase;
+    margin: .5em 0 .5em;
+}
+
+.about-sevices-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.services-list-text {
+    width: 70%;
+}
+
+.services-list-text h2 {
+    color: #8b312cff;
+    font: 700 2.2em/1.75 'Playball', serif;
+    text-transform: capitalize;
+    margin: 1em 0 ;
+}
+
+.about-us-contact-section {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #bfbfbf;
+    width: 85%;
+    margin: 0 auto;
+}
+

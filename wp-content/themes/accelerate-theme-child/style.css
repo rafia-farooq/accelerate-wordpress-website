@@ -27,6 +27,7 @@ $misty-rose: #f7e0ddff;
 
 .menu-top-nav-container li{
     color: white;
+    width: 130px;
   }
 
 /* icons */
@@ -44,6 +45,13 @@ $misty-rose: #f7e0ddff;
 
 #menu-top-nav li a[href*="case-studies"]::before {
     content: '\f0b1';
+    color: white;
+    margin-right: 0.5em;
+    font-size: 18px;
+}
+
+#menu-top-nav li a[href*="contact-us"]::before {
+    content: '\f0e0';
     color: white;
     margin-right: 0.5em;
     font-size: 18px;
@@ -210,4 +218,33 @@ a.button{
     font-size: 1.2em !important;
     border-radius: 50%;
     padding: 10px;
+}
+
+
+/* Contact Form */
+/* resource: https://contactform7.com/styling-contact-form/ */
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+}
+/* 
+.wpcf7 input[type="text"]{
+    float: left;
+}
+
+.wpcf7 input[type="email"]{
+    float: right;
+} */
+
+.wpcf7 textarea {
+    width: 100%;
+    height: 100px;
+} 
+
+.wpcf7 input[type="submit"]{
+    background-color: #8b312cff;
+    color: white;
+    padding: 0 5em;
+    float: right;
 }

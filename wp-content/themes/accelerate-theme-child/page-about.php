@@ -13,10 +13,8 @@ get_header(); ?>
 
 	<div id="primary" class="home-page hero-content">
 		<div class="main-content about" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>
-				
-			<?php endwhile; // end of the loop. ?>
+			
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
 
@@ -25,7 +23,7 @@ get_header(); ?>
 		<div class="about-content">
 			<div class="about-intro">
 				<h4>OUR SERVICES</h4>
-                <p>We take pride in our clients and teh content we create for them.</p>
+                <p>We take pride in our clients and the content we create for them.</p>
                 <p>Here's a brief overview of our offered services.</p>
 			</div>
 

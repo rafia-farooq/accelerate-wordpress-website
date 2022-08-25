@@ -281,10 +281,10 @@ body {
 	text-decoration: none;
 }
 .entry-title a:hover {
-	color: #45ac9d;
+	color: #ebad70ff;
 }
 .entry-time {
-	color: #45ac9d;
+	color: #ebad70ff;
 	font: 600 .82em/1.65 'Open Sans', Arial, sans-serif;
 }
 .category .page-title {
@@ -292,10 +292,10 @@ body {
 	margin: 0;
 }
 .category .page-title span {
-	color: #45ac9d;
+	color: #ebad70ff;
 }
 .entry-summary a {
-	color: #45ac9d;
+	color: #ebad70ff;
 	font-weight: 600;
 }
 .entry-summary a:hover {
@@ -327,7 +327,7 @@ body {
 	text-transform: capitalize;
 }
 .entry-footer .entry-terms a:hover {
-	border-bottom: 1px solid #45ac9d;
+	border-bottom: 1px solid #ebad70ff;
 }
 .entry-terms span {
 	font-weight: normal;
@@ -397,7 +397,7 @@ body {
 	border-left: none;
 	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
 	height: 2.6rem;
-	background: url('img/white-arrow-right.png') no-repeat center #45ac9d;
+	background: url('img/white-arrow-right.png') no-repeat center #ebad70ff;
 	color: #ffffff;
 	margin-left: -5px;
 	padding: 0;
@@ -405,7 +405,7 @@ body {
 }
 #sidebar h2 {
 	font: 700 .875em/1.75 'Open Sans', Arial, sans-serif;
-	color: #45ac9d;
+	color: #ebad70ff;
 	margin: 0 auto 1.25em;
 	text-transform: uppercase;
 }
@@ -441,7 +441,7 @@ body {
 }
 #navigation .left a,
 #navigation .right a {
-	color: #45ac9d;
+	color: #ebad70ff;
 	text-decoration: none;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -506,7 +506,7 @@ body {
 	float: right;
 }
 .comment-list .comment a {
-	color: #45ac9d;
+	color: #ebad70ff;
 	text-decoration: none;
 }
 .comment-list .comment a:hover {
@@ -517,13 +517,13 @@ body {
 	text-transform: capitalize;
 }
 .comments-area .comment-reply-title {
-	color: #45ac9d;
+	color: #ebad70ff;
 	font: 700 1.176em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	text-transform: uppercase;
 	margin: 2em 0 1em;
 }
 .comments-area .comment-reply-title a {
-	color: #45ac9d;
+	color: #ebad70ff;
 }
 .comments-area .comment-reply-title a:hover {
 	text-decoration: underline;
@@ -550,7 +550,7 @@ body {
 	border: 1px solid #BFBFBF;
 }
 .comments-area .comment-form p a {
-	color: #45ac9d;
+	color: #ebad70ff;
 }
 .comments-area .comment-form p a:hover {
 	text-decoration: underline;
@@ -569,7 +569,7 @@ body {
 	border: 1px solid #BFBFBF;
 }
 .comments-area .comment-form input[type="submit"] {
-	background: #45ac9d;
+	background: #ebad70ff;
 	width: 12.875em;
 	height: 3.5em;
 	line-height: 1;

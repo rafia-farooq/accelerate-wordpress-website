@@ -18,7 +18,7 @@
 		<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 			<aside class="widget widget_text">
 				<div class="textwidget">
-					<p>This is a practice site for our <a href="http://skillcrush.com/">Skillcrush</a> students. <a href="https://skillcrush.com/wordpress-blueprint-package-first-to-know">We’d love to see you in class!</a></p>
+					<p>This is a practice site by Rafia Farooq using custom theme. Enjoy Exploring</a></p>
 				</div>
 			</aside>
 

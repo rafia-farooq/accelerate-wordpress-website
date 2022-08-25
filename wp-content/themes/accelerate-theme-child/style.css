@@ -264,7 +264,7 @@ a.button{
 }
 
 .about-content {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -286,6 +286,10 @@ a.button{
     margin: 3em 0;
 }
 
+.about-sevices-list:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
 .services-list-text {
     width: 70%;
 }
@@ -297,11 +301,57 @@ a.button{
     margin: 1em 0 ;
 }
 
+.horizontal-line {
+    border-top: 1px solid #bfbfbf;
+    width: 75%;
+    margin: 3.5em auto;
+}
+
 .about-us-contact-section {
     display: flex;
     justify-content: center;
-    border-top: 1px solid #bfbfbf;
-    width: 85%;
-    margin: 0 auto;
+    align-items: center;
+    margin: 2.5em 0;
+}
+
+.about-us-contact-section div{
+    margin: 0 1em;
+}
+
+.about-us-contact-section div h3{
+    margin: 0;
+}
+
+/* 404 Page */
+
+.page-404 {
+    background-image: 
+    radial-gradient(circle, rgb(0, 0, 0, 0.3) 20%, rgba(255, 255, 255, 0.004) 51%),
+    url("img/404-bg.jpeg");
+    background-size: cover;
+}
+
+.page-404-content p{
+    color: white;
+    font: 100 1.5em/1 'Playball', serif;
+}
+
+.page-404 h3{
+    font: 100 3.75em/1 'Rubik Glitch', cursive;
+    margin: 1em 0;
+}
+
+.button-404{
+    font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+    color: #8b312cff;
+	background: white;
+    padding: 1em 3.75em;
+    text-align: center;
+}
+
+.image-404 {
+    margin: 3em;
+    width: 300px;
+    border-radius: 50%;
 }
 

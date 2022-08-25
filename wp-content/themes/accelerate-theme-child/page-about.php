@@ -51,6 +51,8 @@ get_header(); ?>
 
 			<?php endwhile; ?> 
 			<?php wp_reset_query(); ?>
+
+			<hr class="horizontal-line">
             
             <div class="about-us-contact-section">
                 <div>

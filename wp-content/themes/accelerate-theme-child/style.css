@@ -25,13 +25,14 @@ $misty-rose: #f7e0ddff;
 
 /* Top Menu */
 
-.menu-top-nav-container li{
-    width: auto;
-  }
+.menu-top-nav-container li:hover a{
+    font-weight: 100 !important;
+    color: #ebad70ff !important;
+    transition: all 1s ease;
+}
 
 /* icons */
 #menu-top-nav li a {
-    padding: 0.5rem;
     display: block;
 }
 
@@ -155,6 +156,38 @@ a.button{
     text-decoration: underline;
 }
 
+/* Twitter feed on HomePage */
+
+.widget-area {
+    width: 40%;
+    margin: 0 0 0 3em;
+    display: inline-block;
+}
+
+.ctf-header {
+    font: 700 1em/1.75 'Nuosu SIL', serif !important;
+    text-transform: uppercase;
+    padding-left: 3.5em !important;
+}
+
+.ctf-author-avatar, .ctf-author-screenname, .ctf-tweet-actions {
+    display: none !important;
+}
+
+.widget .widget_block p {
+    margin: 0 !important;
+    display: none !important;
+}
+
+.ctf-author-name {
+    font: 700 1em/1.5 'Nuosu SIL', serif;
+}
+
+.ctf-tweet-content {
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid lightgray;
+}
+
 /* Case Studies Archive */
 .case-studies-archive {
     font: 700 2.5em/1.75 'Nuosu SIL', serif;
@@ -180,6 +213,9 @@ a.button{
     color: grey;
     font: 1em/1 'Nuosu SIL', serif;
 }
+
+
+
 /* Case Studies single page */
 
 .case-study{

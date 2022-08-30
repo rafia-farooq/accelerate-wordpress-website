@@ -2,9 +2,9 @@
 Theme Name:   Accelerate Theme Child
 Theme URI:    http://accelerate.com/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Rafia Farooq
+Author:   	  Rafia Farooq
 Author URI:   http://accelerate.com
-Template: 	accelerate-theme
+Template: 	  accelerate-theme
 Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  accelerate-theme-child
@@ -158,7 +158,7 @@ a.button{
 
 /* Twitter feed on HomePage */
 
-.widget-area {
+#secondary {
     width: 40%;
     margin: 0 0 0 3em;
     display: inline-block;
@@ -174,9 +174,17 @@ a.button{
     display: none !important;
 }
 
-.widget .widget_block p {
+#block-2 p{
     margin: 0 !important;
     display: none !important;
+}
+
+#ctf p {
+    display: block !important;
+}
+
+#ctf .ctf-item:first-child {
+    margin-top: 6em;
 }
 
 .ctf-author-name {
@@ -187,6 +195,12 @@ a.button{
     padding-bottom: 20px;
     border-bottom: 0.5px solid lightgray;
 }
+
+.follow-us {
+    margin-top: -2em;
+    margin-left: 4em;
+}
+
 
 /* Case Studies Archive */
 .case-studies-archive {
@@ -455,4 +469,58 @@ a.button{
     font: 700 4em/1.75 'Nuosu SIL', serif;
     text-transform: capitalize;
     margin: 0 ;
+}
+
+/* Newsletter sign up widget in sidebar on blog */
+
+#mc4wp-form-1 input[type="email"] {
+    width: 100%;
+    font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+	font-style: italic;
+}
+
+#mc4wp-form-1 input[type="submit"] {
+    background-color: #ebad70ff;
+    padding: 0 2em;
+    width: 100%;
+}
+
+/* Sidebar on blog page */
+
+#sidebar .widget_search input[type="search"] {
+	width: 79%;
+	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+	font-style: italic;
+	border-top: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-left: 1px solid #a6a6a6;
+	border-right: none;
+	height: 2.6rem;
+	padding: .5em;
+	vertical-align: middle;
+}
+
+#sidebar .widget_search form div button {
+	width: 13%;
+	border-top: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-right: 1px solid #a6a6a6;
+	border-left: none;
+	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+	height: 2.6rem;
+	background: url('img/white-arrow-right.png') no-repeat center #ebad70ff;
+	color: #ffffff;
+	margin-left: -5px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+#block-6, #block-8, #block-10 {
+    padding-top: 0 !important;
+    padding-bottom: 50px !important;
+}
+
+.wp-block-latest-posts__post-date {
+    color: #8b312cff;
+    font: 600 .82em/1.65 'Open Sans', Arial, sans-serif;
 }

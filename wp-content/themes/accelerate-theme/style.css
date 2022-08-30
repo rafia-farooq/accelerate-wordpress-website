@@ -353,7 +353,7 @@ body {
 	list-style-type: none;
 }
 #sidebar .widget {
-	padding: 1.75em 1.8em 0;
+	padding: 1.5em 1.8em 0;
 }
 #sidebar .widget:last-of-type {
 	padding-bottom: 1.75em;
@@ -374,8 +374,10 @@ body {
 	text-decoration: underline;
 }
 #sidebar .widget_search {
+	border-top: 1px solid #BFBFBF;
 	border-bottom: 1px solid #BFBFBF;
-	padding: 1.75em 1.8em;
+	padding: 2em 1.8em;
+	margin: 4em 0;
 }
 #sidebar .widget_search input[type="text"] {
 	width: 79%;

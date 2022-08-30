@@ -68,9 +68,16 @@ get_header(); ?>
 		</div>
 	</section>
 
+	
+
 	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 		<div id="secondary" class="widget-area" role="complementary">
 			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+
+		<div class="read-more-link follow-us">
+			<a href="https://twitter.com/iam_lily_rose"> Follow us &rsaquo; </a>
+		</div>
+
 		</div>
 	<?php endif; ?>
 

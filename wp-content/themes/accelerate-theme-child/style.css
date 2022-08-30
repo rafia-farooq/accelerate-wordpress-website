@@ -83,11 +83,11 @@ $misty-rose: #f7e0ddff;
     background: none repeat scroll 0 0 #8b312cff;
 }
 
-.button{
+.home-page .button{
     background-color: #f7e0ddff;
 }
 
-a.button{
+.home-page a.button{
     color:#8b312cff;
 }
 
@@ -368,6 +368,14 @@ a.button{
     font: 1em/1 'Nuosu SIL', serif;
 }
 
+.wpcf7 form.invalid .wpcf7-response-output {
+    display: none;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    color: green;
+}
+
 /* About Page */
 .about {
     width: 50%;
@@ -538,4 +546,15 @@ a.button{
 .archive .heateor_sss_sharing_container {
     display: none;
 
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+    .wpcf7-form {
+        display: block;
+    }
+    .wpcf7 .half-width {
+        width: 100%;
+    }
 }

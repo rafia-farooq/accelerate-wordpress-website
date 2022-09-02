@@ -156,6 +156,10 @@ a.button{
     text-decoration: underline;
 }
 
+.home .heateor_sss_sharing_container {
+    display: none;
+}
+
 /* Twitter feed on HomePage */
 
 #secondary {
@@ -523,4 +527,15 @@ a.button{
 .wp-block-latest-posts__post-date {
     color: #8b312cff;
     font: 600 .82em/1.65 'Open Sans', Arial, sans-serif;
+}
+
+/* Social Media icons on blog page after each post */
+
+.home .heateor_sss_sharing_container {
+    display: none;
+}
+
+.archive .heateor_sss_sharing_container {
+    display: none;
+
 }

@@ -25,6 +25,7 @@
 				</figure>
 			<?php endif; ?>
 			<?php the_excerpt(); ?>
+			
 		</div>
 		<footer class="entry-footer">
 			<div class="entry-meta">

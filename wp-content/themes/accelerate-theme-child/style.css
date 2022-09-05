@@ -543,9 +543,64 @@ $misty-rose: #f7e0ddff;
     display: none;
 }
 
-.archive .heateor_sss_sharing_container {
+.archive .heateor_sss_sharing_container, .search-page .heateor_sss_sharing_container{
     display: none;
 
+}
+
+
+/* Search result page */
+
+.search-page h2:first-child {
+    font: 100 2em/1 'Playball', serif;
+}
+
+.search-page-content {
+    width: 80%;
+    margin: 3em auto;
+}
+
+.no-search-result {
+    font: 700 1.5em/1.75 'Nuosu SIL', serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.search-page-form {
+    width: 40%;
+    margin: 4em auto;
+}
+
+.search-page-form input[type="text"] {
+	width: 60%;
+	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+	font-style: italic;
+	border-top: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-left: 1px solid #a6a6a6;
+	border-right: none;
+	height: 2.6rem;
+	padding: .5em;
+	vertical-align: middle;
+}
+
+.search-page-form input[type="submit"] {
+	width: 13%;
+	border-top: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-right: 1px solid #a6a6a6;
+	border-left: none;
+	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+	height: 2.6rem;
+	background: url('img/white-arrow-right.png') no-repeat center #ebad70ff;
+	color: #ffffff;
+	margin-left: -5px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.search-page #navigation {
+    width: 100%;
 }
 
 /* Media Queries */

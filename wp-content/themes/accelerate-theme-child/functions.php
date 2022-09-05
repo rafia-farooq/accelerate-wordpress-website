@@ -77,3 +77,17 @@ function accelerate_theme_child_widget_init() {
 	
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+
+
+// To check which template Wordpress is using for a certain page. Use this
+// function, login as admin, at the bottom of the page it will indicate the 
+// template being used.
+
+// function which_template_is_loaded() {
+// 	if ( is_super_admin() ) {
+// 		global $template;
+// 		print_r( $template );
+// 	}
+// }
+ 
+// add_action( 'wp_footer', 'which_template_is_loaded' );

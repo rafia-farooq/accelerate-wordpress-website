@@ -599,6 +599,10 @@ $misty-rose: #f7e0ddff;
 	vertical-align: middle;
 }
 
+.search-page .searchform {
+    text-align: center;
+}
+
 .search-page #navigation {
     width: 100%;
 }
